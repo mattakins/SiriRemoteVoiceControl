@@ -69,3 +69,15 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Locally compiled command-line tools (build from the sources in Tools/)
+Tools/a1962_decode_capture
+Tools/a1962_hid_keepalive
+Tools/a1962_mic_button_monitor
+
+# Packaged/extracted release artifacts
+Release/
+__MACOSX/
+
+# Apple's PacketLogger, copied in from Additional Tools for Xcode
+PacketLogger.app/
